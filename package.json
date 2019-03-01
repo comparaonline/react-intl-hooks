@@ -1,0 +1,44 @@
+{
+  "name": "@comparaonline/react-intl-hooks",
+  "author": "ComparaOnline.com",
+  "version": "0.0.1",
+  "main": "dist/react-intl-hooks.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:watch": "webpack --watch --mode=development",
+    "test": "jest",
+    "lint": "tslint -p . 'src/**/*.ts?(x)'",
+    "prebuild": "yarn lint"
+  },
+  "devDependencies": {
+    "@comparaonline/ui-config-jest-ts": "^0.27.0",
+    "@comparaonline/ui-config-tslint": "^0.27.6",
+    "@comparaonline/ui-config-webpack": "^0.27.0",
+    "@comparaonline/ui-tsconfig": "^0.27.0",
+    "@types/enzyme": "^3.1.14",
+    "@types/jest": "^23.3.5",
+    "enzyme": "^3.7.0",
+    "jest": "^23.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.0",
+    "prop-types": "^15.7.2",    
+    "tslib": "^1.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-intl": "^2.8.0"
+  }
+}

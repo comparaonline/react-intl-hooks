@@ -1,0 +1,7 @@
+{
+  "extends": "@comparaonline/ui-tsconfig/react.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "exclude": ["dist", "**/*/__tests__"]
+}
