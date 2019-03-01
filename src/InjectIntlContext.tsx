@@ -1,6 +1,7 @@
 import React from 'react';
-import { injectIntl, IntlContext } from 'react-intl';
+import { injectIntl } from 'react-intl';
+import { IntlContext } from './IntlContext';
 
-export const InjectIntlContext = injectIntl(({ intl, children }) => {
-  return <IntlContext.Provider value={intl}>{children}</IntlContext.Provider>;
-});
+export const InjectIntlContext = injectIntl(({ intl, children }) => (
+  <IntlContext.Provider value={intl}>{children}</IntlContext.Provider>
+));
