@@ -1,0 +1,3 @@
+{
+  "extends": "@comparaonline/ui-config-tslint/react.json"
+}
