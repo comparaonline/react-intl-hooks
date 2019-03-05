@@ -21,11 +21,12 @@
     "@comparaonline/ui-config-webpack": "^0.27.0",
     "@comparaonline/ui-tsconfig": "^0.27.0",
     "@types/enzyme": "^3.1.14",
-    "@types/jest": "^23.3.5",
+    "@types/jest": "^23.3.5",    
     "enzyme": "^3.7.0",
     "jest": "^23.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-intl": "^2.8.0",
     "tslint": "^5.11.0",
     "typescript": "^3.2.0",
     "webpack": "^4.26.0",
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@types/react": "^16.0.0",
+    "@types/react-intl": "^2.3.17",
     "prop-types": "^15.7.2",
     "tslib": "^1.9.0"
   },
