@@ -25,7 +25,7 @@ yarn add @comparaonline/react-intl-hooks
 ## Usage
 
 ```tsx
-import { useFormatMessage } from '@comparaonline/react-intl-hooks';
+import { useFormatMessage, InjectIntlContext } from '@comparaonline/react-intl-hooks';
 
 const TestIntl = () => {
   const t = useFormatMessage();
