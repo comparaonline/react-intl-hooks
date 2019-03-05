@@ -1,3 +1,3 @@
 export { IntlContext } from './IntlContext';
 export { InjectIntlContext } from './InjectIntlContext';
-export { useFormatMessage } from './hooks';
+export { useFormatMessage, FormatMessage } from './hooks';
