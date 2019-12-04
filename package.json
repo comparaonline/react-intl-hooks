@@ -1,7 +1,7 @@
 {
   "name": "@comparaonline/react-intl-hooks",
   "author": "ComparaOnline.com",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1",
   "main": "dist/react-intl-hooks.js",
   "types": "dist/index.d.ts",
   "private": false,
